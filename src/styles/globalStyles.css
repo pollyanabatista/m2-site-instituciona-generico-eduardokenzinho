@@ -1,1 +1,8 @@
 @import url("./reset.css");
+
+:root {
+    --color-primary: #212529;
+    --color-secondary: #191C1F;
+    --color-third: #4C6EF5;
+    --gray-200: #F8F9FA;
+}

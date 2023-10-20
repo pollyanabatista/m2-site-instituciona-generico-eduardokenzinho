@@ -1,1 +1,6 @@
 @import url("./globalStyles.css");
+
+* {
+    font-family: Inter;
+    max-width: 1256px;
+}
