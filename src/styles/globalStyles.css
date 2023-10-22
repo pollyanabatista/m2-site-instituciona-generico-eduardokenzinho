@@ -4,5 +4,9 @@
     --color-primary: #212529;
     --color-secondary: #191C1F;
     --color-third: #4C6EF5;
+    --gray-100: #191C1F;
+    --gray-150: #ADB5BD;
     --gray-200: #F8F9FA;
+    --gray-300: #EDF2FF;
+    --gray-400: #CED4DA;
 }
