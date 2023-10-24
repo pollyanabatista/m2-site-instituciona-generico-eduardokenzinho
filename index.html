@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+   
     <title>Site institucional genérico</title>
 </head>
 
@@ -23,53 +26,60 @@
     <main class="main__question">
         <div class="who_are_we">
             <h2 class="who_are_we--title">Quem somos nós?</h2>
-            <p class="who_are_we--paragraph">It is a long established fact that a reader will be distracted by the readable content of a page when
+            <p class="who_are_we--paragraph">It is a long established fact that a reader will be distracted by the
+                readable content of a page when
                 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
                 of letters, as opposed to using</p>
         </div>
-        <div class="doubts__container">
-            <h1 class="doubts_frequent">Dúvidas frequentes</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s</p>
-            <button>Entrar para próxima turma</button>
+        <div class="div-container">
+            <div class="doubts__container">
+                <h1 class="doubts_frequent">Dúvidas frequentes</h1>
+                <p class="paragraph__container">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s</p>
+                <button class="doubts__button">Entrar para próxima turma</button>
+            </div>
+            <ul class="question__container">
+                <li class="doubts__title">
+                    <h2>Quanto o custa o curso?</h2>
+                </li>
+                <li class="paragraph__doubts">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using</p>
+                </li>
+                <li class="doubts__title">
+                    <h2>Quais matérias vou pagar?</h2>
+                </li>
+                <li class="paragraph__doubts">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using</p>
+                </li>
+                <li class="doubts__title">
+                    <h2>Tenho direito a cancelamento?</h2>
+                </li>
+                <li class="paragraph__doubts">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using</p>
+                </li>
+                <li class="doubts__title">
+                    <h2>O acesso do curso é vitalício?</h2>
+                </li>
+                <li class="paragraph__doubts">
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using</p>
+                </li>
+            </ul>
         </div>
-        <ul class="question__container">
-            <li class="doubts__title">
-                <h2>Quanto o custa o curso?</h2>
-            </li>
-            <li class="paragraph__doubts">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using</p>
-            </li>
-            <li class="doubts__title">
-                <h2>Quais matérias vou pagar?</h2>
-            </li>
-            <li class="paragraph__doubts">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using</p>
-            </li>
-            <li class="doubts__title">
-                <h2>Tenho direito a cancelamento?</h2>
-            </li>
-            <li class="paragraph__doubts">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using</p>
-            </li>
-            <li class="doubts__title">
-                <h2>O acesso do curso é vitalício?</h2>
-            </li>
-            <li class="paragraph__doubts">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using</p>
-            </li>
-        </ul>
     </main>
-    <section>
-        <ul class="comments__container">
+    <section class="comments__container">
+        <ul class="comments__list">
             <li>
                 <div>
                     <h3 class="comments__name">Júlia Lima</h3>
@@ -128,8 +138,8 @@
                 industry's standard dummy text ever since the 1500s</p>
         </div>
     </section>
-    <footer>
-        <h4>Generic Course</h4>
+    <footer class="footer__container">
+        <h4 class="footer__title">Generic Course</h4>
     </footer>
 </body>
 

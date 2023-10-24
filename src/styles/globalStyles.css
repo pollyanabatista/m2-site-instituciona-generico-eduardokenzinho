@@ -1,4 +1,5 @@
 @import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
     --color-primary: #212529;
@@ -9,4 +10,9 @@
     --gray-200: #F8F9FA;
     --gray-300: #EDF2FF;
     --gray-400: #CED4DA;
+}
+
+body {
+    font-family: "Inter",sans-serif;
+    width: 100%;
 }
