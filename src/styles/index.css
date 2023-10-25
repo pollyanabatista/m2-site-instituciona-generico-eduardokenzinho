@@ -12,6 +12,10 @@ body {
     align-items: center;
     border-bottom: 2px solid var(--color-third);
     background: var(--color-secondary);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
 }
 
 .header__title {
@@ -118,6 +122,11 @@ body {
     background: var(--color-primary);
 }
 
+.doubts__container--1 {
+    position: sticky;
+    top: 100px;
+}
+
 .doubts__container {
     display: flex;
     width: 620px;
@@ -187,9 +196,10 @@ body {
 
 .comments__container {
     display: flex;
+    
     padding: 82px 236px;
     align-items: flex-start;
-    height: 1540px;
+    height: 1600px;
     gap: 56px;
     background: var(--color-primary);
 }
@@ -228,6 +238,11 @@ body {
     width: 412px;
     height: 179px;
     flex-shrink: 0;
+}
+
+.box__comments--1{
+    position: sticky;
+    top: 100px;
 }
 
 .box__comments {
