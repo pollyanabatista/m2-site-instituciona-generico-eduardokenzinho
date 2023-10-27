@@ -6,7 +6,6 @@ main {
 body {
     width: 100%;
     padding: clamp(1024px, 768px e 425px);
-    font-size: clamp(16px, 5vw, 24px);
 }
 
 .header__container {
@@ -23,10 +22,9 @@ body {
 
 .header__title {
     width: 300px;
-    height: 20.798px;
+    height: 20.7984px;
     color: var(--gray-200);
 }
-
 .header__button {
     display: flex;
     height: 60px;
@@ -51,9 +49,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 44px;
-  
 }
+@media (max-width:48rem) {
 
+}
 .banner__title {
     color: var(--gray-300);
     text-align: center;
@@ -62,6 +61,8 @@ body {
     font-size: 52px;
     font-weight: 600;
     line-height: 140%;
+    font-size: clamp(16px, -0.368px + 3.851vw, 48px);
+
 }
 
 .banner__paragraph {
@@ -70,6 +71,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
+    font-size: clamp(16px, 11.904px + 0.963vw, 24px);
 }
 
 .banner__button {
@@ -90,9 +92,9 @@ body {
 
 .who_are_we {
     display: flex;
-    padding: 82px 236px;
+    margin: 0 auto;
     align-items: center;
-    gap: 56px;
+    gap: 1rem;
     background: var(--gray-100);
     width: 100%;
 }
@@ -105,23 +107,23 @@ body {
 
 .who_are_we--title {
     display: flex;
-    width: 620px;
     height: 46px;
     flex-direction: column;
     justify-content: center;
     color: var(--gray-300);
-    font-size: 40px;
     font-weight: 600;
     line-height: 160%;
+    font-size: var(--letras-maiores1);
 }
 
 .who_are_we--paragraph {
-    width: 580px;
+    width: 100%;
     color: var(--gray-400);
     text-align: justify;
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
+    font-size: var(--letras-menores);
 }
 
 .div-container {
@@ -133,7 +135,7 @@ body {
     padding: 20px;
 }
 
-@media (max-width:768px) {
+@media (max-width:48rem) {
     .div-container {
         flex-direction: column;
     }
@@ -200,6 +202,7 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 160%;
+    font-size: clamp(16px, 6.176px + 2.31vw, 35.2px);
 }
 
 .paragraph__doubts {
@@ -208,19 +211,21 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
+    font-size: var(--letras-menores1);
 }
 
 .comments__container {
     display: flex;
     width: 100%;
-
+    margin: 0 auto;
     align-items: flex-start;
-    height: 100rem;
-    gap: 56px;
+    height: 125rem;
+    padding: 32px;
+    gap: 6rem;
     background: var(--color-primary);
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
     .comments__container {
         flex-direction: column;
     }
@@ -254,24 +259,24 @@ body {
 .comments__paragraph {
     color: var(--gray-400);
     text-align: justify;
-    font-size: 18px;
     font-weight: 400;
     line-height: 150%;
     width: 412px;
     height: 179px;
     flex-shrink: 0;
+    font-size: var(--letras-menores);
 }
 
 .box__comments--1 {
     position: sticky;
-    top: 100px;
+    top: 6.25rem;
 }
 
 .box__comments {
     display: flex;
-    padding: 80px 52px;
+    padding: 6rem;
     flex-direction: column;
-    width: 600px;
+    width: 26rem;
     height: 400px;
     align-items: flex-start;
     gap: 35px;
@@ -281,7 +286,7 @@ body {
 
 .box__title {
     color: var(--gray-200);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
@@ -291,7 +296,7 @@ body {
 .box__paragraph {
     color: var(--gray-7, #F8F9FA);
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 150%;
     align-self: stretch;
@@ -309,7 +314,7 @@ body {
 }
 
 .footer__title {
-    height: 18.554px;
+    height: 18.5536px;
     flex-shrink: 0;
     color: var(--gray-300);
 }

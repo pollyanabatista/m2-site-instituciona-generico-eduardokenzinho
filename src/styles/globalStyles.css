@@ -10,6 +10,10 @@
     --gray-200: #F8F9FA;
     --gray-300: #EDF2FF;
     --gray-400: #CED4DA;
+    --letras-titulos:
+    --letras-maiores1: clamp(1rem, -0.023rem + 3.851vw, 3rem);
+    --letras-menores: clamp(1rem, 0.744rem + 0.963vw, 1.5rem);
+    --letras-menores1: clamp(1rem, 0.591rem + 1.54vw, 1.8rem);
 }
 
 body {
