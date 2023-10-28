@@ -97,6 +97,9 @@ body {
     gap: 1rem;
     background: var(--gray-100);
     width: 100%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center ;
 }
 
 @media(max-width:768px) {
@@ -113,7 +116,7 @@ body {
     color: var(--gray-300);
     font-weight: 600;
     line-height: 160%;
-    font-size: var(--letras-maiores1);
+    font-size:var(--letras-maiores)
 }
 
 .who_are_we--paragraph {
@@ -145,6 +148,11 @@ body {
     position: sticky;
     top: 100px;
 }
+@media (max-width: 768px) {
+    .doubts__container--1 {
+        position: static;
+    }
+}
 
 .doubts__container {
     display: flex;
@@ -162,6 +170,7 @@ body {
     font-weight: 600;
     line-height: 160%;
     align-self: stretch;
+    font-size: var(--letras-maiores);
 }
 
 .paragraph__container {
@@ -170,6 +179,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
+    font-size: var(--letras-menores);
 }
 
 .doubts__button {
@@ -219,21 +229,29 @@ body {
     width: 100%;
     margin: 0 auto;
     align-items: flex-start;
+    justify-content: space-around;
     height: 125rem;
     padding: 32px;
     gap: 6rem;
     background: var(--color-primary);
 }
 
+@media (max-width:1024px){
+    .comments__container{
+        padding: 0%;
+        
+    }
+}
+
 @media (max-width: 768px) {
     .comments__container {
         flex-direction: column;
+        padding: 0%;
     }
 }
 
 .comments__list {
     display: flex;
-    width: 620px;
     flex-direction: column;
     align-items: flex-start;
     gap: 82px;
@@ -241,10 +259,11 @@ body {
 
 .comments__name {
     color: var(--gray-300);
-    font-size: 32px;
+    font-size: var(--letras-maiores);
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
+    padding: 10px;
 }
 
 .comments__date {
@@ -266,6 +285,11 @@ body {
     flex-shrink: 0;
     font-size: var(--letras-menores);
 }
+@media (max-width:768px){
+    .comments__paragraph {
+        width: none;
+    }
+}
 
 .box__comments--1 {
     position: sticky;
@@ -283,6 +307,21 @@ body {
     align-self: stretch;
     background: var(--color-third);
 }
+@media (max-width: 1024px){
+    .box__comments{
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .box__comments {
+        padding: 1px;
+        width: none;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+}
 
 .box__title {
     color: var(--gray-200);
@@ -291,6 +330,7 @@ body {
     font-weight: 600;
     line-height: 160%;
     align-self: stretch;
+    font-size: var(--letras-maiores);
 }
 
 .box__paragraph {
@@ -300,6 +340,7 @@ body {
     font-weight: 400;
     line-height: 150%;
     align-self: stretch;
+    font-size: var(--letras-menores);
 }
 
 .footer__container {
