@@ -9,6 +9,7 @@ body {
 }
 
 .header__container {
+    height: 80px;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -27,11 +28,12 @@ body {
 }
 .header__button {
     display: flex;
-    height: 60px;
+    height: 50px;
     padding: 20px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border-radius: 10px;
     border: 1px solid var(--gray-200);
     color: var(--gray-7, #F8F9FA);
     text-align: center;
